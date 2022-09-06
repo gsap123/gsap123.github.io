@@ -113,7 +113,14 @@ body.wrong {
   font-weight: bold;
   padding: 20px 20px;
 }
-
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
 .intro-container{
   font-size: 2em;
   font-weight: bold;
