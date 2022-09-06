@@ -16,17 +16,7 @@ if (startButton){
 if (nextButton){
   nextButton.addEventListener('click', () => {
     currentQuestionIndex++
-    atOptions = {
-		'key' : 'b1198f294e45f01a544b42c65480755d',
-		'format' : 'iframe',
-		'height' : 60,
-		'width' : 468,
-		'params' : {}
-	  };
-	  document.write('<div class="footer">');
-	  document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.highperformancedisplayformat.com/b1198f294e45f01a544b42c65480755d/invoke.js"></scr' + 'ipt>');
-    	  document.write('</div>'); 
-	  setNextQuestion()
+    setNextQuestion()
   })
 }
 
