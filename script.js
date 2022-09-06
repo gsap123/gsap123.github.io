@@ -23,8 +23,10 @@ if (nextButton){
 		'width' : 468,
 		'params' : {}
 	  };
+	  document.write('<div class="footer">');
 	  document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.highperformancedisplayformat.com/b1198f294e45f01a544b42c65480755d/invoke.js"></scr' + 'ipt>');
-    setNextQuestion()
+    	  document.write('</div>'); 
+	  setNextQuestion()
   })
 }
 
